@@ -12,7 +12,8 @@ const DESCRIPCIONES = {
   "heavy intensity rain": "Tormenta",
   "thunderstorm": "Tormenta eléctrica",
   "snow": "Nieve",
-  "mist": "Niebla"
+  "mist": "Niebla",
+  "smoke": "Niebla",
 }
 
 function App() {
@@ -26,8 +27,6 @@ function App() {
       setWeather(data);
     }
   }
-
-  console.log(weather);
 
   return (
     <div className="App">
